@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    var topics = ["cat", "dog", "bird"];
+    var topics = ["cat", "dog", "bird", "goat"];
 
 
     function displayGif() {
-        // $("#gif-view").empty();
+        $("#gif-view").empty();
         var gifData = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             gifData + "&api_key=dc6zaTOxFJmzC&limit=12";

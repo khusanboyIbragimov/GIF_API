@@ -13,7 +13,8 @@ body{
     padding-bottom: 10px;
     padding-top: 12px;
     border:5px solid white;
-}
+    
+ }
 
 button{
     margin: 3px;
@@ -46,6 +47,7 @@ p{
     padding-left: 10px;
     border:5px solid white;
     
+    
 }
 label{
     font-weight: bold;
@@ -62,3 +64,37 @@ label{
     font-weight: bold;
     font-size: 20px;
 }
+@media screen and (max-width:980px){
+    .add-panel{
+    margin-left: 17px;
+    margin-right: 15px;
+
+    }
+}
+@media screen and (max-width:736px){
+    .add-panel{
+        margin-left: 34px;
+        /* margin-right: 15px; */
+        
+    }
+    .head{
+        margin-left: 21px;
+    }
+    button{
+        width: 95px;
+    }
+}
+@media screen and (max-width:412px){
+    .add-panel{
+        margin-left: 17px;
+        margin-right: 15px;
+       
+    }
+}
+
+
+
+
+
+
+
