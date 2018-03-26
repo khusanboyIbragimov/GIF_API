@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+
+}
+
+button{
+    margin: 3px;
+    width: 80px;
+    background-color: #ffa550;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+img{
+    width: 100%;
+    height: 200px;
+    border: 7px solid whitesmoke;
+    border-radius: 5px;
+    
+}
+p{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+.jumbotron {
+    padding-top: 12px;
+    padding-bottom: 80px;
+    
+}
+label{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffa550;
+}
+#add-gif{
+    background-color: #ffa550;
+    color: white;
+    width: 100px;
+    border-color: whitesmoke;
+    border-radius: 7px;
+    font-weight: bold; 
+}
