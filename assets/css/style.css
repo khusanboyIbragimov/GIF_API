@@ -2,15 +2,29 @@ body{
     background-color: gray;
 
 }
+.first-row{
+    margin-right: 3px;
+    margin-top: 10px;
+}
+#gif-input{
+    margin-bottom: -15px;
+}
+.add-panel{
+    padding-bottom: 10px;
+    padding-top: 12px;
+    border:5px solid white;
+}
 
 button{
     margin: 3px;
-    width: 80px;
+    width: 100px;
+    height: 35px;
     background-color: #ffa550;
     border-radius: 7px;
     color: white;
     font-weight: bold;
     border-color: white;
+    font-size: 15px; 
 }
 img{
     width: 100%;
@@ -26,9 +40,11 @@ p{
     text-decoration: underline;
     
 }
-.jumbotron {
+.head {
     padding-top: 12px;
-    padding-bottom: 80px;
+    padding-bottom: 87px;
+    padding-left: 10px;
+    border:5px solid white;
     
 }
 label{
@@ -40,7 +56,9 @@ label{
     background-color: #ffa550;
     color: white;
     width: 100px;
+    height: 40px;
     border-color: whitesmoke;
     border-radius: 7px;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 20px;
 }
