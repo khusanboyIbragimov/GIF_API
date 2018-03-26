@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var topics = ["cat", "dog", "bird", "goat"];
+    var topics = ["cat", "dog", "bird", "goat", "putin", "trump", "bill gates", "mr bin", "arnold"];
 
 
     function displayGif() {
