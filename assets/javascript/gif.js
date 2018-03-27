@@ -22,6 +22,8 @@ $(document).ready(function () {
                 var rate = gify[i].rating;
 
                 var p = $("<p>").text("Rating: " + rate);
+                var pClick = $("<p>").text("Click on gif to play it!!");
+                pClick.addClass("click");
 
                 var gifURL = gify[i].images.fixed_height_still.url;
 
@@ -32,7 +34,7 @@ $(document).ready(function () {
                 image.attr("data-state", "still");
                 image.addClass("gif");
 
-                gifDiv.append(p, image);
+                gifDiv.append(p, pClick, image);
 
                 $("#gif-view").prepend(gifDiv);
             }
